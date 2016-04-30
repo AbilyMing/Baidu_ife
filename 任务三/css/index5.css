@@ -1,0 +1,200 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	background-color: rgb(222,222,222);
+	min-width: 700px;
+}
+a.color{
+	text-decoration: none;
+	color: white;
+}
+nav>ul:last-child>li>a{
+	color: rgb(126,126,126);
+}
+#header_wrapper{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(51,51,51);
+	min-width: 1320px;
+	
+}
+#header{
+	margin: 0px auto;
+	width: 1320px;
+	height: 60px;
+}
+#header_pic{
+	float: left;
+	width: 150px;
+	height: 60px;
+	background:url(pic/bd_logo1.png)  0px -88px;
+	background-size: 160px 72px;
+}
+nav{
+	float: right;
+	font-family: "黑体";
+	font-size: 14px; 
+}
+nav>ul{
+	display: inline-block;
+	margin-top: 20px;
+	min-width: 90px;
+}
+.content{
+	position: relative;
+	margin-left: 20px;
+	margin-right: 450px;
+	margin-top: 20px;
+	padding: 30px 20px 30px 20px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px gray;
+}
+aside{
+	position: relative;
+	width: 350px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px gray;
+}
+.aside {
+    padding-left: 10px;
+    border-left: 3px #ccc solid;
+}
+#wrapper{
+	width: 60%;
+	padding: 20px;
+	margin-right: 20px;
+}
+h2,h3,h5,p{
+	font-family: "黑体";
+}
+h3,p{
+	margin-top: 20px;
+	color: gray;
+}
+h5{
+	margin-top:15px;
+	color: gray;
+}
+p.txt,ul#ullist{
+	color: black;
+	font-family: "黑体";
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.content_pic img{
+	width: 200px;
+}
+ul#ullist{
+	margin: 20px;
+	list-style: none;
+}
+.pic{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border: 1px solid gray;
+}
+figure{
+    height: 120px;
+    width: 140px;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+figcaption{
+	padding: 5px;
+}
+ol{
+	padding-left: 40px;
+}
+ol>li{
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.tab{
+	margin-top: 20px;
+}
+table{
+	width: 100%;
+    margin: 0 auto;
+    border-color: #ccc;
+    border-collapse: collapse;
+
+}
+thead{
+    color: white;
+    background: #333;
+}
+tfoot{
+	background: #ccc;
+    font-weight: bold;
+}
+.input_message {
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+.input_messages {
+    width: 34%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.bot {
+    vertical-align: bottom;
+}
+form>div {
+    margin: 10px 0;
+}
+.demand {
+    font-size: 13px;
+    color: gray;
+    margin-left: 37.5%;
+    margin-top: 10px;
+}
+input[type='submit'] {
+    width: 100%;
+    height: 40px;
+    background: #3355D0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #3355D0;
+    font-weight: 800;
+}
+#footer{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 60px;
+  min-width: 1320px;
+}
+.name {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+

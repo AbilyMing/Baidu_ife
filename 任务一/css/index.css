@@ -1,0 +1,59 @@
+#wrapper{
+	margin: 0px auto;
+	background-color: #eee;
+	padding: 20px;
+	border:1px solid #999;
+	overflow: auto;
+	min-width: 550px;
+
+}
+#box1{
+	float: left;
+	width: 180px;
+	padding: 20px;
+	background-color: white;
+	border:1px solid #999;
+}
+#box3{	
+	float: right;
+	background-color: white;
+	padding: 20px;
+	border:1px solid #999;
+}
+#pic{
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height: 80px;
+	background-image: url(pic/t2.jpg);
+	background-size: 80px 80px;
+}
+p#team{
+	margin: 0px;
+	text-align: center;
+}
+#content{
+	margin: 0px;
+	width: 200px;
+	min-width: 200px;
+}
+p#content_con{
+	margin: 0px;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+	background-image: url(pic/t1.jpg);
+	background-size: 80px 80px;
+}
+#last_logo{
+	margin-bottom: 0px;
+}
+#box2{
+	padding: 20px;
+	margin-left: 280px;
+	margin-right: 190px;
+	background-color: white;
+	border:1px solid #999;
+}
